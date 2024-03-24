@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    font-family: "Gabarito", sans-serif;
+
+}
+
+.navbar {
+    color: #A435F0;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+
+.container {
+    display: flex;
+    border-bottom: solid black 2px;
+    flex-wrap: wrap;
+}
+
+.searchbar {
+    border: solid 2px black;
+    margin-bottom: 10px;
+    width: 1000px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 30px;
+    height: 20px;
+}
+
+.searchbar input {
+    border: none;
+    width: 1000px;
+    border: none;
+    margin-left: 10px;
+}
+
+.courses {
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.learning {
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.icon2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.icon3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.offer {
+    height: 70px;
+    background-color: #ECEB98;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.para {
+    cursor: pointer;
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.searchbar input {
+    font-size: 15px;
+}
+
+.sub__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px black;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.one {
+
+    height: 30px;
+    background-color: #A435F0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.two {
+
+    height: 30px;
+    background-color: #A435F0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.three {
+
+    height: 30px;
+    background-color: #A435F0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.four {
+
+    height: 30px;
+    background-color: #A435F0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.five {
+
+    height: 30px;
+    background-color: #A435F0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.six {
+
+    height: 30px;
+    background-color: #A435F0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.recommened {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub__1 {
+    width: 50px;
+    height: 100px;
+}
+
+.sub__2 {
+    width: 50px;
+    height: 100px;
+}
+
+.sub__3 {
+    width: 50px;
+    height: 100px;
+}
+
+.sub__4 {
+    width: 50px;
+    height: 100px;
+    
+}
+.c1 img{
+   width: 220px;
+   height: 150px;
+   
+}
+.c2 img{
+    width: 220px;
+    height: 150px;
+    
+ }
+ .c3 img{
+    width: 220px;
+    height: 150px;
+   
+ }
+ .c4 img{
+    width: 220px;
+    height: 150px;
+    
+ }
+ .container1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+ }
+ .c1{
+    width: 220px;
+    height: 220px;
+ }
+ .c2{
+    width: 220px;
+ }
+ .c3{
+    width: 220px;
+ }
+ .c4{
+    width: 220px;
+ }
+ .recommened{
+    flex-wrap: wrap;
+ }
+ .topics p{
+      border: solid 2px black;
+      flex-grow: 1;
+      flex-basis: 30%;
+      padding: 10px;
+ }
+ .topics__course {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+ }
+ .footer__one{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 20px;
+ }
+ .footer__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+ }
+ .footer__one p{
+    margin: 10px;
+    cursor: pointer;
+ }
+ .footer{
+    margin-top: 20px;
+ }
+ .one:hover{
+        height: 35px;
+        width: 90px;;
+ }
+ .two:hover{
+    height: 35px;
+    width: 90px;;
+}
+.three:hover{
+    height: 35px;
+    width: 100px;;
+}
+.four:hover{
+    height: 35px;
+    width: 180 clonepx;;
+}
+.five:hover{
+    height: 35px;
+    width: 50px;;
+}
+.six:hover{
+    height: 35px;
+    width: 80px;;
+}
