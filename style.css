@@ -21,6 +21,8 @@ body {
     display: flex;
     border-bottom: solid black 2px;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
 }
 
 .searchbar {
@@ -33,6 +35,7 @@ body {
     display: flex;
     margin-left: 30px;
     height: 20px;
+
 }
 
 .searchbar input {
