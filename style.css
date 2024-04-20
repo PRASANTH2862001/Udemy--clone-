@@ -45,7 +45,7 @@ body {
 .searchbar input {
     border: none;
     width: 1000px;
-    border: none;
+    border: transparent;
     margin-left: 10px;
     background: transparent;
 }
@@ -63,12 +63,14 @@ body {
     margin-top: 10px;
     text-align: center;
     cursor: pointer;
-   
+
 }
-.mylearning{
+
+.mylearning {
     position: relative;
 }
-.mylearning__popup{
+
+.mylearning__popup {
     position: absolute;
     border: 1px solid black;
     padding: 10px;
@@ -77,7 +79,8 @@ body {
 
 
 }
-.mylearning:hover .mylearning__popup{
+
+.mylearning:hover .mylearning__popup {
     display: block;
 }
 
@@ -104,7 +107,7 @@ body {
     background-color: #ECEB98;
     text-align: center;
     padding-top: 20px;
-
+    
 }
 
 .para {
@@ -132,19 +135,39 @@ h3 {
     padding: 10px;
     flex-wrap: wrap;
 }
-.images{
-       position: relative;
+
+.images {
+    position: relative;
 }
-.images__content{
-      position: absolute;
-      border: 2px solid black;
-      background-color: white;
-     top: 100px;
-     left: 200px;
-     width: 500px;
-     height: 150px;
-     padding: 10px;
+
+.images__content {
+    position: absolute;
+    border: 2px solid black;
+    background-color: white;
+    top: 100px;
+    left: 200px;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    animation-name: zoom;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
 }
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+}
+
 .one {
 
     height: 30px;
@@ -230,104 +253,132 @@ h3 {
 .sub__4 {
     width: 50px;
     height: 100px;
-    
+
 }
-.c1 img{
-   width: 220px;
-   height: 150px;
-   
+
+.c1 img {
+    width: 220px;
+    height: 150px;
+
 }
-.c2 img{
+
+.c2 img {
     width: 220px;
     height: 150px;
-    
- }
- .c3 img{
+
+}
+
+.c3 img {
     width: 220px;
     height: 150px;
-   
- }
- .c4 img{
+
+}
+
+.c4 img {
     width: 220px;
     height: 150px;
-    
- }
- .container1{
-    display:flex;
+
+}
+
+.container1 {
+    display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
 
- }
- .c1{
+}
+
+.c1 {
     width: 220px;
     height: 220px;
- }
- .c2{
+}
+
+.c2 {
     width: 220px;
- }
- .c3{
+}
+
+.c3 {
     width: 220px;
- }
- .c4{
+}
+
+.c4 {
     width: 220px;
- }
- .recommened{
+}
+
+.recommened {
     flex-wrap: wrap;
- }
- .topics p{
-      border: solid 2px black;
-      flex-grow: 1;
-      flex-basis: 30%;
-      padding: 10px;
- }
- .topics__course {
+}
+
+.topics p {
+    border: solid 2px black;
+    flex-grow: 1;
+    flex-basis: 30%;
+    padding: 10px;
+}
+
+.topics__course {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     margin-top: 10px;
- }
- .footer__one{
+}
+
+.footer__one {
     display: flex;
     background-color: black;
     color: white;
     gap: 20px;
- }
- .footer__two{
+}
+
+.footer__two {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
- }
- .footer__one p{
+}
+
+.footer__one p {
     margin: 10px;
     cursor: pointer;
- }
- .footer{
+}
+
+.footer {
     margin-top: 20px;
- }
- .one:hover{
-        height: 35px;
-        width: 90px;;
- }
- .two:hover{
-    height: 35px;
-    width: 90px;;
 }
-.three:hover{
+
+.one:hover {
     height: 35px;
-    width: 100px;;
+    width: 90px;
+    ;
 }
-.four:hover{
+
+.two:hover {
     height: 35px;
-    width: 180 clonepx;;
+    width: 90px;
+    ;
 }
-.five:hover{
+
+.three:hover {
     height: 35px;
-    width: 50px;;
+    width: 100px;
+    ;
 }
-.six:hover{
+
+.four:hover {
     height: 35px;
-    width: 80px;;
+    width: 180 clonepx;
+    ;
+}
+
+.five:hover {
+    height: 35px;
+    width: 50px;
+    ;
+}
+
+.six:hover {
+    height: 35px;
+    width: 80px;
+    ;
 }
