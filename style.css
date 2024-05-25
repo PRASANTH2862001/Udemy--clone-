@@ -286,6 +286,8 @@ h3 {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 25%;
 
 }
 
@@ -381,4 +383,16 @@ h3 {
     height: 35px;
     width: 80px;
     ;
+}
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .sub__bar{
+        display: none;
+    }
+    
 }
